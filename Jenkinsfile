@@ -26,7 +26,8 @@ pipeline {
        steps {
          echo "This is Build Stage"
           sh 'sleep 5'
-        }
-      } 
-   }    
-}  
+         }
+       } 
+     }    
+   } 
+ }
