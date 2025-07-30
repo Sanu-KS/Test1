@@ -4,8 +4,8 @@ pipeline {
      stage ('BUILD') {
        steps {
          echo "This is Build Stage"
-          sh 'sleep 5; exit 1;
-        }
+          sh 'sleep 5; exit 0;
+   
       } 
       
       stage ('TEST PARALLELE') {
