@@ -17,9 +17,9 @@ pipeline {
                         sh 'sleep 5; exit 1;'
                     }
                 }
-                stage('TEST ON SAFARI') {
+                stage('TEST ON MICROSOFT EDGE') {
                     steps {
-                        echo "This is test on Safari browser"
+                        echo "This is test on EDGE browser"
                         sh 'sleep 5; exit 1;'
                     }
                 }
